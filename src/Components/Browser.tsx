@@ -1,7 +1,8 @@
 export default function Browser(){
     return (
         <>
-        <input type="text"></input> <p>Buscar</p>
+        <label htmlFor="search"> Buscar </label>
+        <input type="text" id="search" placeholder="Buscar..." />
         </>
 
     )
