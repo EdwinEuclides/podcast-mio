@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+
+user-info {
+    display: flex;
+    align-items: center;
+
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info .username {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.artist-card{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    color: rgb(33, 10, 82);
+    width: 200px;
+    margin: 10px;
+}
+
+.listen-again{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
