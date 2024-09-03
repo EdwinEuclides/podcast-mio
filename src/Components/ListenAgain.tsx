@@ -1,11 +1,7 @@
 
 
 import ArtistCard from "./ArtistCard";
-<<<<<<< HEAD
 import estilos from "./Styles.module.css";
-=======
-import "./index.css";
->>>>>>> d8877eb21783240ce13baf38af88952ecf94c9f8
 
 
 const SONGS=[
@@ -41,11 +37,7 @@ const SONGS=[
 export default function ListenAgain() {
 
     return(
-<<<<<<< HEAD
         <div className={estilos.listenAgain}>
-=======
-        <div className="listen-again">
->>>>>>> d8877eb21783240ce13baf38af88952ecf94c9f8
             {SONGS.map((song) => (
                 <ArtistCard 
                     key={song.name} 
